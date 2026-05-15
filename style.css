@@ -11,7 +11,7 @@ main{
 }
 p{
     font-family: "Open Sans", sans-serif;
-    background: none;
+
     color: white; 
     font-size: 16px;
     line-height: 150%;
@@ -21,12 +21,6 @@ button{
     font-size: 16px;
     padding:  10.25px 29.5px;
 
-}
-h3{
-    background: none;
-    color: white;
-    font-size: 24px;
-    line-height: 100%;
 }
 h2{
     color: white;
@@ -75,10 +69,7 @@ nav{
 }
 
 /* --------------------------------------Main -------------------------------------------------------- */
-.number{
-    font-family: "Cormorant", serif;
-    color: #899D9D;
-}
+
 /* -------------------------------------- Preview -------------------------------------------------------- */
 .preview{
     background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1.jpg);
@@ -90,7 +81,7 @@ h1{
     max-width: 688px;
     color: white;
     border: black 1px;
-    background: none;
+
     font-size: 60px;
     padding-top: 115px;
     padding-bottom: 16px;
@@ -101,18 +92,29 @@ h1{
 /* -------------------------------------- Section1 -------------------------------------------------------- */
 .section1{
     max-width: 1110px;
-
+    
 }
-.card-img{
-    background-color: #0B1919;
-    max-width: 225px;
+.card-pos{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.number{
+    font-family: "Cormorant", serif;
+    color: #899D9D;
+    border-color: #899D9D;
+    border-radius: 100%;
+    border-width: 1px;
+    padding: 1px 3px;
+    border-style: solid;
+    max-width: 18px;
+    
 }
 .collection-text{
     line-height: 150%;
     max-width: 635px;
-    background: none;
-}
 
+}
 .explore p{
     font-weight: bold;
     color: #BAE249;
@@ -123,18 +125,42 @@ h1{
     display:inline-flex;
     padding-bottom: 115px;
 }
+.card-img{
+    padding: 16px 16px 30px 16px;
+    background-color: #0B1919;
+    max-width: 255px;
+}
+.card{
+    max-width: 255px;
+    height: 493px;
+    border-color: #0B1919;
+    border-width: 1px;
+    border-style: solid;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    line-height: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+
+}
+.card-text{
+    max-width: 223px;
+    color: #899D9D;
+    padding-left: 16px;
+}
 /* -------------------------------------- Section2 -------------------------------------------------------- */
 .dark-button{
-
     background-color: rgba(29, 47, 48, 1);
     color: #BAE249;
     border-color: #BAE249;
     border-width: 1px;
-
 }  
-.card-text{
-    max-width: 223px;
-    color: #899D9D;
+.dark-button-pos{
+    padding-left: 16px;
+
 }
 
 /* -------------------------------------- Section2.5 -------------------------------------------------------- */
