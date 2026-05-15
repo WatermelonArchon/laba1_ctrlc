@@ -5,10 +5,6 @@
 body{
     background-color: rgba(29, 47, 48, 1);
 }
-main{
-    width:1440px;
-    height:2398px;
-}
 p{
     font-family: "Open Sans", sans-serif;
 
@@ -68,8 +64,6 @@ nav{
     padding-left: 64px;
 }
 
-/* --------------------------------------Main -------------------------------------------------------- */
-
 /* -------------------------------------- Preview -------------------------------------------------------- */
 .preview{
     background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1.jpg);
@@ -81,39 +75,12 @@ h1{
     max-width: 688px;
     color: white;
     border: black 1px;
-
     font-size: 60px;
     padding-top: 115px;
     padding-bottom: 16px;
 }
 .collection-text{
     padding-bottom: 24px;
-}
-/* -------------------------------------- Section1 -------------------------------------------------------- */
-.section1{
-    max-width: 1110px;
-    
-}
-.card-pos{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.number{
-    font-family: "Cormorant", serif;
-    color: #899D9D;
-    border-color: #899D9D;
-    border-radius: 100%;
-    border-width: 1px;
-    padding: 1px 3px;
-    border-style: solid;
-    max-width: 18px;
-    
-}
-.collection-text{
-    line-height: 150%;
-    max-width: 635px;
-
 }
 .explore p{
     font-weight: bold;
@@ -125,6 +92,37 @@ h1{
     display:inline-flex;
     padding-bottom: 115px;
 }
+/* -------------------------------------- Section1 -------------------------------------------------------- */
+.section1{
+    width: 1440px;
+    /* max-width: 1110px; */
+    /* justify-content: space-around; */
+    justify-self: center;
+}
+.card-pos{
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    
+}
+.number{
+    font-family: "Cormorant", serif;
+    color: #899D9D;
+    border-color: #899D9D;
+    border-radius: 100%;
+    border-width: 1px;
+    padding: 0px 3px;
+    border-style: solid;
+    max-width: 18px;
+    
+}
+.collection-text{
+    line-height: 150%;
+    max-width: 635px;
+
+}
+
 .card-img{
     padding: 16px 16px 30px 16px;
     background-color: #0B1919;
@@ -151,6 +149,29 @@ h3{
     color: #899D9D;
     padding-left: 16px;
 }
+.arrows{
+    display: flex;
+    justify-content: center;
+}
+.arrows h3{
+    margin: 26px 30px 57px 30px;
+}
+.arrows img{
+    margin-top: 45px;
+    margin-bottom: 74px;
+}
+.but1{
+    margin-top: 16px;
+}
+.but2{
+    margin-top: 64px;
+}
+.but3{
+    margin-top: 40px;
+}
+.but4{
+    margin-top: 88px;
+}
 /* -------------------------------------- Section2 -------------------------------------------------------- */
 .dark-button{
     background-color: rgba(29, 47, 48, 1);
@@ -160,16 +181,25 @@ h3{
 }  
 .dark-button-pos{
     padding-left: 16px;
-
+}
+.new-arts{
+    margin-bottom:30px;
+}
+.arts{
+    max-width: 825px;
+}
+.arrow-s{
+    display:inline-flex;
 }
 
-/* -------------------------------------- Section2.5 -------------------------------------------------------- */
 .acid-green{
-    background-image: url(assets/Rectangle69.jpg);
+    background-image: url(assets/Rectangle69.png);
     max-width: 255px;
+    max-height: 493px;
 }
 .acid-green h3{
     color: #1D2F30;
+    padding: 16px 39px 8px 16px;
 }
 .acid-green p{
     color: #506829
@@ -177,13 +207,44 @@ h3{
 .read-more{
     color: #0B1919;
     font-weight: bold;
+    margin-right: 8px;
+
+    padding-left: 16px;
+}
+.read-more-text1{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 24px;
+}
+.read-more-text{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 75px;
 }
 
-
+.new-arts-pos{
+    display: flex;
+    justify-content:space-evenly;
+}
+.new-pos{
+    margin-bottom: 60px;
+}
 /* -------------------------------------- Section3 -------------------------------------------------------- */
+.section3{
+    background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+}
 .green-button{
     color: #0B1919;
     background-color: #BAE249;
+    max-width: 145px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding: 11.5px 26px;
+    border-color: #BAE249;
+    font-weight: bold;
 }
 .project-help{
     max-width: 825px;
@@ -193,20 +254,41 @@ h3{
     padding: 8px 0 8px 0;
     background-color: white;
     width: 350px;
-    /* должно быть 45 */
     height: 30px;
+    margin-top: 24px;
 }
-
+.section3 h2{
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+.help{
+    display: grid;
+}
 /* -------------------------------------- Footer -------------------------------------------------------- */
 .links{
-padding-right: 30px;
+background-image: url(assets/Rectangle669.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 display: flex;
-justify-content:center;
-}
-.footer-img{
-width: 1920px;
-height: 60px;
+justify-content: center;  
+padding-right: 30px;
+padding-top: 18px;
+padding-bottom: 18px;
+
 }
 .footer-text{
     text-align: center;
+    font-size: 12px;
+    color: #899D9D;
+}
+.youtube{
+    margin-right: 32px; 
+    margin-top: 5px;
+}
+.insta{
+    margin-right: 32px;
+    margin-top: 3px; 
+}
+.facebook{
+    margin-right: 33px; 
 }
