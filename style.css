@@ -7,7 +7,6 @@ body{
 }
 p{
     font-family: "Open Sans", sans-serif;
-
     color: white; 
     font-size: 16px;
     line-height: 150%;
@@ -24,9 +23,8 @@ h2{
     font-style: italic;
     line-height: 100%;
 }
-
 .container{
-    max-width: 1240px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 .flex{
@@ -37,7 +35,6 @@ h2{
 header{
     background-image: url(assets/Rectangle7.png);
     background-repeat: no-repeat;
-    width: 1920px;
     max-height: 60px;
 }
 header a{
@@ -59,17 +56,14 @@ header a{
 nav{
     padding: 17px 0 19px 0;
 }
-
 .navigation{
     padding-left: 64px;
 }
-
 /* -------------------------------------- Preview -------------------------------------------------------- */
 .preview{
     background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
 }
 h1{
     max-width: 688px;
@@ -86,25 +80,16 @@ h1{
     font-weight: bold;
     color: #BAE249;
     padding-right: 8px;
-    
 }
 .explore{
     display:inline-flex;
     padding-bottom: 115px;
 }
 /* -------------------------------------- Section1 -------------------------------------------------------- */
-.section1{
-    width: 1440px;
-    /* max-width: 1110px; */
-    /* justify-content: space-around; */
-    justify-self: center;
-}
 .card-pos{
     margin-top: 60px;
     display: flex;
-    justify-content:space-evenly;
-    margin-left: 20px;
-    
+    justify-content:space-between;
 }
 .number{
     font-family: "Cormorant", serif;
@@ -115,14 +100,11 @@ h1{
     padding: 0px 3px;
     border-style: solid;
     max-width: 18px;
-    
 }
 .collection-text{
     line-height: 150%;
     max-width: 635px;
-
 }
-
 .card-img{
     padding: 16px 16px 30px 16px;
     background-color: #0B1919;
@@ -142,7 +124,6 @@ h3{
     padding-top: 16px;
     padding-bottom: 8px;
     padding-left: 16px;
-
 }
 .card-text{
     max-width: 223px;
@@ -191,7 +172,6 @@ h3{
 .arrow-s{
     display:inline-flex;
 }
-
 .acid-green{
     background-image: url(assets/Rectangle69.png);
     max-width: 255px;
@@ -208,7 +188,6 @@ h3{
     color: #0B1919;
     font-weight: bold;
     margin-right: 8px;
-
     padding-left: 16px;
 }
 .read-more-text1{
@@ -221,10 +200,9 @@ h3{
     margin-right: 16px;
     margin-bottom: 75px;
 }
-
 .new-arts-pos{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 .new-pos{
     margin-bottom: 60px;
@@ -234,7 +212,6 @@ h3{
     background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
 }
 .green-button{
     color: #0B1919;
@@ -256,6 +233,8 @@ h3{
     width: 350px;
     height: 30px;
     margin-top: 24px;
+    font-size: 16px;
+    padding-left: 16px;
 }
 .section3 h2{
     padding-top: 60px;
@@ -265,30 +244,27 @@ h3{
     display: grid;
 }
 /* -------------------------------------- Footer -------------------------------------------------------- */
-.links{
+.background-links{
 background-image: url(assets/Rectangle669.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+}
+.links{
 display: flex;
-justify-content: center;  
+justify-content: center;
 padding-right: 30px;
 padding-top: 18px;
 padding-bottom: 18px;
-
 }
 .footer-text{
     text-align: center;
     font-size: 12px;
     color: #899D9D;
 }
-.youtube{
-    margin-right: 32px; 
-    margin-top: 5px;
-}
 .insta{
-    margin-right: 32px;
-    margin-top: 3px; 
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .facebook{
-    margin-right: 33px; 
+    margin-right: 30px; 
 }
